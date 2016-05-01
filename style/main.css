@@ -1,0 +1,189 @@
+/*reset*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font: 14px/100% "Microsoft YaHei",arial,"Hiragino Sans GB","Hiragino Sans GB W3",\5b8b\4f53;background-color: #eff0f0; }
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;color: #333;}
+
+.l{ float: left;}
+.r{ float: right;}
+.clearfix:after{content:".";visibility:hidden;display:block;height:0;clear:both;}
+.clearfix{zoom:1;}
+
+/*顶部*/
+header{
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #EBEBEB;
+    box-shadow: 0px 0px 3px rgba(150, 150, 150, 0.2);
+    position: relative;
+    display: inline-block;
+    min-width: 1220px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header .bdlogo{
+    width:137px;
+    height:46px;
+    background: url("../images/imglogo-r.png") no-repeat;
+    float: left;
+    background-size: contain;
+    margin-right: 16px;
+    position: relative;
+    top: 0px;
+    margin-left: 40px;
+}
+header form{
+    float: left;
+    height:77px;
+    display: block;
+
+}
+header form .sList{
+    margin-top: -10px;
+}
+header form .sList a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #555;
+    margin-right: 5px;
+    font-family: "Microsoft YaHei",arial,"Hiragino Sans GB",sans-serif;
+}
+header form .sList a.selected{
+    color: #333;
+    font-weight: 700;
+}
+header form span{
+    display: inline-block;
+    float: left;
+}
+/*搜索框容器*/
+.searchBox .sInput{
+    width: 453px;
+    height: 32px;
+    display: inline-block;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid none solid solid;
+    border-color: #B8B8B8;
+    border-image: none;
+    vertical-align: top;
+    display: inline-block;
+}
+.searchBox{
+    margin-top: 10px;
+    position: relative;
+}
+.searchBox .sInput input{
+    width: 415px;
+    height: 22px;
+    font: 16px/22px "Hiragino Sans GB","Microsoft Yahei","微软雅黑","宋体",宋体,Tahoma,Arial,Helvetica,STHeiti;
+    margin: 5px 0px 0px 7px;
+    outline: 0px none;
+    background: #FFF;
+    border: none;
+}
+.searchBox .sBtn{
+    width: 98px;
+    height: 32px;
+    display: inline-block;
+    z-index: 0;
+    vertical-align: top;
+    border: 1px solid #CCC;
+
+}
+.searchBox .sBtn input{
+    width: 98px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei","微软雅黑","宋体",宋体,Tahoma,Arial,Helvetica,STHeiti;
+    background-image: url("http://img0.bdstatic.com/img/image/search-btn.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: #333;
+    padding: 1px 0px 0px;
+    border: 0px none;
+}
+.searchBox  .imgfilter-text{
+    position: absolute;
+    right: -70px;
+    top: 12px;
+    float: left;
+    color: #00C;
+    font-size: 12px;
+}
+/*右侧顶部*/
+.topBar{
+    position: absolute;
+    right: 0;
+    top:1px;
+}
+.topBar a{
+    position: relative;
+}
+.topBar span{
+    height: 14px;
+    background: #BBB;
+    width: 1px;
+    position: absolute;
+    right: -9px;
+    top: 2px;
+}
+.topBar a{
+    color: #555;
+    margin: 0 7px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+}
+/*相关搜索*/
+.aboutSearch{
+    background: #fff;
+    position: absolute;
+    left: 63px;
+    bottom: 8px;
+}
+.aboutSearch i{
+    display: inline-block;
+    width:16px;
+    height: 13px;
+    background: url("../images/search-icon.png") no-repeat;
+    position: absolute;
+    left: -18px;
+    top: 0;
+}
+.aboutSearch a{
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 14px;
+    color: #00C;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.aboutSearch span{
+    margin-right: 20px;
+}
+/*居中*/
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+/*图片容器*/
+.box{
+    position: relative;
+    float: left;
+}
+.content{
+    padding: 10px;
+    border:1px solid #ccc;
+    box-shadow: 0 0 2px inset;
+    border-radius: 5px;
+}
+.content img{
+    width:190px;
+    height: auto;
+}
